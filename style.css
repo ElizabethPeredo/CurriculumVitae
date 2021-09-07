@@ -102,9 +102,9 @@ h3 {
 }
 
 .resume .resume_left .resume_profile img {
-  width: 80%;
-  height: 80%;
-  height: 280px;
+  width: 50%;
+  height: 30%;
+  height: 150px;
   align-items: center;
   margin-top: 1em;
   box-shadow: var(--box-shadow);
@@ -312,6 +312,11 @@ i img {
     flex-direction: row;
     margin: 1rem;
     padding: 1rem;
+  }
+
+  .resume .resume_left .resume_profile img {
+    width: 80%;
+    height: 200px;
   }
   .resume .resume_left .resume_profile h2 {
     font-size: 5rem;
