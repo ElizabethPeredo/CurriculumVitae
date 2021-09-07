@@ -85,12 +85,21 @@ max-width: 800px;
     color: var(--white);
 }
 .resume .resume_left .resume_profile {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+
 }
 
 .resume .resume_left .resume_profile img {
-  width: 100%;
-  height: 100%;
-  height: 250px;
+  width: 80%;
+  height: 80%;
+  height: 280px;
+  align-items: center;
+  margin-top: 1em;
+  box-shadow: var(--box-shadow);
 }
 .resume .resume_left .resume_profile .profile_info {
   padding: 0.5rem 1rem;
@@ -284,15 +293,15 @@ i img{
   .resume_right {
     grid-row: 2;
   }
-  .resume_profile {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
+  .resume .resume_left .resume_profile {
+    flex-wrap: wrap;
+    flex-direction: row;
     margin: 1rem;
     padding: 1rem;
+    
   }
-  .resume_profile h2{
-      font-size: 3rem;
+  .resume .resume_left .resume_profile h2{
+      font-size: 5rem;
       margin: 0rem;
   }
   .resume_profile img {
