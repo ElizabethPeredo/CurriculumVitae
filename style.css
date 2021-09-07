@@ -332,6 +332,8 @@ footer {
   color: #eee;
   padding: 1.5rem;
   color: var(--white);
+  display: flex;
+  justify-content: center;
 }
 @media only screen and (max-width: 600px) {
   .resume {
@@ -346,6 +348,9 @@ footer {
 }
 
 @media only print {
+  body{
+    background: white;
+  }
   .resume,
   .container {
     max-height: 297mm;
@@ -354,6 +359,8 @@ footer {
     min-width: 210mm !important;
     box-shadow: none;
     grid-template-columns: 1fr 2fr;
+    margin: 0em !important;
+    padding: 0em !important;
   }
   html {
     line-height: 1.5rem;
@@ -361,4 +368,7 @@ footer {
     margin: 0em;
     padding: 0em;
   }
+footer{
+  display: none;
+}
 }
