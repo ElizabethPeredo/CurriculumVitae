@@ -12,12 +12,17 @@
   --font-title: "Glory", cursive;
   --font-body: "Glory", sans-serif;
 }
+.theme1{
+  --color1: #f1cd02;
+  --color2: #0916d1;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
   font-family: var(--font-body);
+  font-weight: 500;
 }
 
 *,
@@ -316,8 +321,8 @@ i img {
   }
 
   .resume .resume_left .resume_profile img {
-    width: 80%;
-    height: 200px;
+    width: 15rem;
+    height: 15rem;
   }
   .resume .resume_left .resume_profile h2 {
     font-size: 5rem;
@@ -351,6 +356,7 @@ footer {
   .resume_profile .profile_info {
     padding: 0em;
   }
+ 
 }
 
 @media only print {
