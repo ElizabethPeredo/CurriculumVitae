@@ -193,6 +193,7 @@ h3 {
 
 .resume .resume_left .resume_skills ul li .skill_progress span {
   position: absolute;
+  padding: 0em;
   top: 0;
   left: 0;
   height: 100%;
