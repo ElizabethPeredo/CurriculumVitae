@@ -4,8 +4,8 @@
 :root {
   --white: #fff;
   --black: #000;
-  --color1: #02caa9;
-  --color2: #0b4af8;
+  --color1: #3363e6;
+  --color2: #0acf7d;
   --background-body: #e9ebf1;
   --color-text: #555555;
   --box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -13,8 +13,8 @@
   --font-body: "Glory", sans-serif;
 }
 .theme1{
-  --color2: #21e652;
-  --color1: #2633e7;
+  --color2: var(--color2);
+  --color1: var(--color1);
 }
 * {
   margin: 0;
